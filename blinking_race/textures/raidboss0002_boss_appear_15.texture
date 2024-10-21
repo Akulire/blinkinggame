@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "raidboss0002_boss_appear_15",
+  "identifier": "texture:2380-56cbd819-607b-4c78-aa96-56338c61bf0d",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "0449164e4d74ca1e1dd316634b680bac",
+  "assetLocator": "textures/raidboss0002_boss_appear_15.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 400,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 528,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "0449164e4d74ca1e1dd316634b680bac",
+      "colorCount": 205,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.8063373001348437,
+      "pixelsHigh": 400,
+      "pixelsWide": 528
+    }
+  ]
+}

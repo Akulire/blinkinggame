@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "jelly_raidSkill_vampirejelly_01",
+  "identifier": "texture:4554-56cbd819-607b-4c78-aa96-56338c61bf0d",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "3961c0c3862aedaae862e8588699a34a",
+  "assetLocator": "textures/jelly_raidSkill_vampirejelly_01.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 114,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 120,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "3961c0c3862aedaae862e8588699a34a",
+      "colorCount": 67,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.094134258568703,
+      "pixelsHigh": 114,
+      "pixelsWide": 120
+    }
+  ]
+}

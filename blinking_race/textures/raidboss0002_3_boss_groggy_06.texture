@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "raidboss0002_3_boss_groggy_06",
+  "identifier": "texture:2372-56cbd819-607b-4c78-aa96-56338c61bf0d",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "57776f0d810eb7663bc3447c22e7204c",
+  "assetLocator": "textures/raidboss0002_3_boss_groggy_06.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 400,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 528,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "57776f0d810eb7663bc3447c22e7204c",
+      "colorCount": 249,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.5996988369108944,
+      "pixelsHigh": 400,
+      "pixelsWide": 528
+    }
+  ]
+}

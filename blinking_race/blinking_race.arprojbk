@@ -1,0 +1,3233 @@
+{
+  "modelName": "document",
+  "name": "Effect",
+  "identifier": "document:4-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+  "id": "2df4a9ff17dd94283bee2ae66a4671ba3",
+  "revision": "15240370fb9908ac4dfa904be56ecbb191eb",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "measurementUnit": "meter",
+  "objects": [
+    {
+      "modelName": "assets_config_model",
+      "identifier": "assets_config_model:195-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "categoriesOrder": [
+        "materials",
+        "textures",
+        "animation_sequences",
+        "audio",
+        "playback_controllers"
+      ]
+    }
+  ],
+  "projectFormatType": "separated_files",
+  "usingPatchesV2": true,
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:12470-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "port_forwarding_patch_model:12478-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "12391354511105841325",
+        "toPatch": "template_patch_model:12468-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:12472-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:12468-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8576-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "103"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:12480-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:8236-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "patch_group_model:12474-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "12391354511105841325"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:16166-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:4360-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:16164-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:16168-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:16164-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "port_forwarding_patch_model:16158-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "4236886918388364967"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:16170-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:16164-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "101",
+        "toPatch": "port_forwarding_patch_model:16162-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "12603497832490935308"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:16182-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:8580-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:16180-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:16184-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:16180-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "port_forwarding_patch_model:16174-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "11048690733703820605"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:16186-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:16180-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "101",
+        "toPatch": "port_forwarding_patch_model:16178-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "6539609609197038993"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:20252-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "patch_group_model:7582-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "12603497832490935308",
+        "toPatch": "template_patch_model:20250-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:20276-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:20262-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:20274-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:20278-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:20274-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:20272-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:22343-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:3507-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3505-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:25858-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:20260-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:20262-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:27361-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "patch_group_model:12474-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "6539609609197038993",
+        "toPatch": "template_patch_model:20248-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:27369-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:8576-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:8580-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:27817-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:20248-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:1289-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:27823-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:8580-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:27819-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:28283-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:5767-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:27831-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:31393-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:20248-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:30069-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:31395-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:30069-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:20260-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:32297-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:32289-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:30069-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:32299-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:32289-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:1285-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:32301-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:1289-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:1285-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:35013-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:20250-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:20248-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3509-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "fromPatch": "template_patch_model:1285-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3507-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4356-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:5759-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "100",
+        "toPatch": "patch_group_model:4350-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "16028567098983835263"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4362-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:4358-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:4360-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4370-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:4360-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:4368-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4372-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "port_forwarding_patch_model:7586-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "9388668441494541193",
+        "toPatch": "template_patch_model:4358-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4380-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:4358-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1002",
+        "toPatch": "template_patch_model:4376-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4384-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:4376-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4382-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4386-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:4382-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:4374-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:5757-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPatch": "template_patch_model:5501-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:5755-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:5761-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPatch": "template_patch_model:5755-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:5759-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:5765-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPatch": "port_forwarding_patch_model:4354-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "16028567098983835263",
+        "toPatch": "template_patch_model:5763-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:5769-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPatch": "template_patch_model:5763-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:5767-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:59085-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "patch_group_model:7582-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "4236886918388364967",
+        "toPatch": "template_patch_model:32289-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:59089-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "patch_group_model:12474-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "11048690733703820605",
+        "toPatch": "template_patch_model:32749-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:59091-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:32749-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:32289-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:59543-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:3505-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:27349-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:65514-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:5759-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:65512-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:65518-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:65512-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:65516-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:65520-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:65516-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3505-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "toPort": "3"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:71160-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:65512-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:71158-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:71162-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:71158-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:20262-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "3"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:7588-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:5759-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "100",
+        "toPatch": "patch_group_model:7582-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "9388668441494541193"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:77430-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:3505-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:77428-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:77438-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:77434-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:77432-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:77440-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:20260-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:77434-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:77444-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "fromPatch": "template_patch_model:5759-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:77442-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8238-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:8232-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:8234-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8240-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "template_patch_model:8234-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "100",
+        "toPatch": "producer_patch_model:8230-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "100"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8242-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "producer_patch_model:8230-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:8236-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8578-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPatch": "port_forwarding_patch_model:12478-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "fromPort": "12391354511105841325",
+        "toPatch": "template_patch_model:8576-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8595-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPatch": "template_patch_model:8591-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:8593-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8597-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPatch": "template_patch_model:5763-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:8591-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:90-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "subpatches": [
+          "consumer_patch_model:20272-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "consumer_patch_model:27349-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "consumer_patch_model:77428-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "consumer_patch_model:77432-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "consumer_patch_model:77442-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "patch_group_model:12474-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "patch_group_model:4350-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "patch_group_model:7582-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "producer_patch_model:8230-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:1285-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+          "template_patch_model:1289-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+          "template_patch_model:20248-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:20250-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:20260-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:20262-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:20274-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:30069-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "template_patch_model:32289-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "template_patch_model:32749-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "template_patch_model:3505-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+          "template_patch_model:3507-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+          "template_patch_model:5501-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "template_patch_model:5755-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "template_patch_model:5759-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "template_patch_model:65512-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "template_patch_model:65516-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "template_patch_model:71158-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "template_patch_model:77434-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "template_patch_model:8232-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:8234-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:8236-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Score_Text",
+        "identifier": "consumer_patch_model:20272-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "object": "2_d_text_model:5135-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "objectProperty": "planar_text_text",
+        "position": [
+          2300,
+          116
+        ],
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "string",
+              "v": "0\n"
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "GameOver",
+        "identifier": "consumer_patch_model:27349-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "object": "composition_model:5149-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "objectProperty": "visible",
+        "position": [
+          2132,
+          -220
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "player",
+        "identifier": "consumer_patch_model:27819-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "object": "plane:1381-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "objectProperty": "position",
+        "position": [
+          428,
+          -268
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                276.420654296875,
+                -566.0607299804688,
+                5.01556396484375
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Bg1",
+        "identifier": "consumer_patch_model:27831-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "object": "plane:521-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "objectProperty": "position",
+        "position": [
+          260,
+          -124
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -1.0678110122680664,
+                -279.60797119140625,
+                -3.63739013671875
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Collider1",
+        "identifier": "consumer_patch_model:4368-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "object": "plane:2817-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "objectProperty": "position",
+        "position": [
+          260,
+          -220
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                226.1619415283203,
+                -370.786376953125,
+                1.219599962234497
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "ani_collider",
+        "identifier": "consumer_patch_model:4374-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "object": "sequenceTexture:3141-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "objectProperty": "current_frame",
+        "position": [
+          262,
+          82
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Gameovercontroller",
+        "identifier": "consumer_patch_model:77428-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "object": "playback_controller_model:72580-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          2108,
+          -52
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "jumpaudiocontroller",
+        "identifier": "consumer_patch_model:77432-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "object": "playback_controller_model:73058-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          1916,
+          380
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "bgmAudiocontroller",
+        "identifier": "consumer_patch_model:77442-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "object": "playback_controller_model:73538-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          716,
+          92
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Bg3",
+        "identifier": "consumer_patch_model:8593-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "object": "plane:1359-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "objectProperty": "position",
+        "position": [
+          250,
+          58
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                390.306640625,
+                -279.6067199707031,
+                0.0007300000288523734
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "patch_group_model",
+        "name": "Player Animation",
+        "identifier": "patch_group_model:12474-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "inputPorts": [
+          "patch_input_port_model:12476-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ],
+        "outputPorts": [
+          "patch_output_port_model:16172-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "patch_output_port_model:16176-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ],
+        "position": [
+          812,
+          284
+        ],
+        "subpatches": [
+          "consumer_patch_model:27819-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "port_forwarding_patch_model:12478-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "port_forwarding_patch_model:16174-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "port_forwarding_patch_model:16178-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:12468-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:16180-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:8576-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:8580-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ]
+      },
+      {
+        "modelName": "patch_group_model",
+        "name": "Bg_Animation",
+        "identifier": "patch_group_model:4350-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "inputPorts": [
+          "patch_input_port_model:4352-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ],
+        "position": [
+          716,
+          -172
+        ],
+        "subpatches": [
+          "consumer_patch_model:27831-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "consumer_patch_model:8593-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "port_forwarding_patch_model:4354-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:5763-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "template_patch_model:5767-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "template_patch_model:8591-6f30b97f-1d7b-4efa-acf6-f5284fcb0291"
+        ]
+      },
+      {
+        "modelName": "patch_group_model",
+        "name": "Collider animation",
+        "identifier": "patch_group_model:7582-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "inputPorts": [
+          "patch_input_port_model:7584-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ],
+        "outputPorts": [
+          "patch_output_port_model:16156-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "patch_output_port_model:16160-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ],
+        "position": [
+          860,
+          -4
+        ],
+        "subpatches": [
+          "consumer_patch_model:4368-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "consumer_patch_model:4374-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "port_forwarding_patch_model:16158-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "port_forwarding_patch_model:16162-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "port_forwarding_patch_model:7586-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:16164-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:4358-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:4360-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:4376-2a856254-2ca7-4efd-934e-4886fd46490c",
+          "template_patch_model:4382-2a856254-2ca7-4efd-934e-4886fd46490c"
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "Input",
+        "identifier": "port_forwarding_patch_model:12478-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -412,
+          -100
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "X",
+        "identifier": "port_forwarding_patch_model:16158-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          668,
+          -124
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "Y",
+        "identifier": "port_forwarding_patch_model:16162-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          668,
+          68
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "X ",
+        "identifier": "port_forwarding_patch_model:16174-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          716,
+          -76
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "Y ",
+        "identifier": "port_forwarding_patch_model:16178-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          764,
+          -4
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "Input",
+        "identifier": "port_forwarding_patch_model:4354-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -460,
+          -148
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "Input",
+        "identifier": "port_forwarding_patch_model:7586-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -556,
+          -124
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "faceTracker0",
+        "identifier": "producer_patch_model:8230-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "object": "facetracker:301-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+        "position": [
+          524,
+          212
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Delay",
+        "identifier": "template_patch_model:12468-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -458,
+          70
+        ],
+        "templateId": "builtin.delay",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0.5
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "And",
+        "identifier": "template_patch_model:1285-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "position": [
+          1628,
+          -220
+        ],
+        "templateId": "builtin.binaryBoolAndOperator"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "identifier": "template_patch_model:1289-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "position": [
+          1604,
+          -52
+        ],
+        "templateId": "builtin.negation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Unpack",
+        "identifier": "template_patch_model:16164-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          284,
+          -100
+        ],
+        "templateId": "builtin.group.shaderVectorUnpack",
+        "variantInfo": "shader_vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Unpack",
+        "identifier": "template_patch_model:16180-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          404,
+          -52
+        ],
+        "templateId": "builtin.group.shaderVectorUnpack",
+        "variantInfo": "shader_vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Greater Than",
+        "identifier": "template_patch_model:20248-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          1292,
+          236
+        ],
+        "templateId": "builtin.binaryScalarGtOperator",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Add",
+        "identifier": "template_patch_model:20250-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          1100,
+          356
+        ],
+        "templateId": "builtin.variadicMathAdd",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": -150
+            }
+          }
+        ],
+        "variadicInfo": {
+          "input": 2
+        },
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:20260-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          1748,
+          116
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "identifier": "template_patch_model:20262-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          1892,
+          116
+        ],
+        "templateId": "builtin.counter",
+        "values": [
+          {
+            "port": "5",
+            "value": {
+              "t": "int",
+              "v": 999
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "To String",
+        "identifier": "template_patch_model:20274-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          2108,
+          140
+        ],
+        "templateId": "builtin.toStringComponent",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "And",
+        "identifier": "template_patch_model:30069-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "position": [
+          1556,
+          116
+        ],
+        "templateId": "builtin.binaryBoolAndOperator"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Equals",
+        "identifier": "template_patch_model:32289-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "position": [
+          1244,
+          -28
+        ],
+        "templateId": "builtin.scalarEqToleranceOperator",
+        "values": [
+          {
+            "port": "3",
+            "value": {
+              "t": "double",
+              "v": 25
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Add",
+        "identifier": "template_patch_model:32749-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "position": [
+          1076,
+          68
+        ],
+        "templateId": "builtin.variadicMathAdd",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": -391
+            }
+          }
+        ],
+        "variadicInfo": {
+          "input": 2
+        },
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:3505-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "position": [
+          1964,
+          -220
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:3507-98358a1a-eea4-4ead-8031-ebf7b5ed98d2",
+        "position": [
+          1820,
+          -220
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:4358-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -362,
+          -182
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:4360-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -146,
+          -182
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                225.16194,
+                -370.78638,
+                1
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -286.16194,
+                -370.78638,
+                1
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Random",
+        "identifier": "template_patch_model:4376-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -122,
+          -14
+        ],
+        "templateId": "builtin.random",
+        "values": [
+          {
+            "port": "3",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Round",
+        "identifier": "template_patch_model:4382-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          85.69997068196562,
+          69.44999118968838
+        ],
+        "templateId": "builtin.mathRound",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "identifier": "template_patch_model:5501-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "position": [
+          308,
+          -4
+        ],
+        "templateId": "builtin.tapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:5755-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "position": [
+          476,
+          -28
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "PLay",
+        "identifier": "template_patch_model:5759-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "position": [
+          596,
+          -28
+        ],
+        "templateId": "builtin.value",
+        "variantInfo": "boolean"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:5763-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "position": [
+          -340,
+          -172
+        ],
+        "templateId": "builtin.group.loopAnimation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:5767-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "position": [
+          -134,
+          -158
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -1.06771,
+                -279.60641,
+                -1
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -400,
+                -279.62067,
+                -1
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "PLay",
+        "identifier": "template_patch_model:65512-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "position": [
+          1508,
+          -460
+        ],
+        "templateId": "builtin.value",
+        "variantInfo": "boolean"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:65516-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "position": [
+          1956,
+          -484
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:71158-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "position": [
+          1820,
+          -364
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:77434-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+        "position": [
+          1700,
+          284
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Finder",
+        "identifier": "template_patch_model:8232-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          92,
+          212
+        ],
+        "templateId": "builtin.faceTracker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Select",
+        "identifier": "template_patch_model:8234-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          284,
+          212
+        ],
+        "templateId": "builtin.facePicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "int",
+              "v": 0
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Blink",
+        "identifier": "template_patch_model:8236-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          716,
+          212
+        ],
+        "templateId": "builtin.blink"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Animation",
+        "identifier": "template_patch_model:8576-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          -194,
+          -170
+        ],
+        "templateId": "builtin.group.animation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:8580-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "position": [
+          20,
+          -244
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                276.42029,
+                -566.06073,
+                200
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                276.42029,
+                -470.4,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:8591-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+        "position": [
+          -134,
+          10
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                390.30664,
+                -279.60672,
+                0.00073
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                -279.55399,
+                0.00085
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      }
+    ],
+    "ports": [
+      {
+        "modelName": "patch_input_port_model",
+        "identifier": "patch_input_port_model:12476-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "forwardingPatch": "port_forwarding_patch_model:12478-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "portName": "Input",
+        "portTag": "12391354511105841325",
+        "portType": "pulse"
+      },
+      {
+        "modelName": "patch_input_port_model",
+        "identifier": "patch_input_port_model:4352-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "forwardingPatch": "port_forwarding_patch_model:4354-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "portName": "Input",
+        "portTag": "16028567098983835263",
+        "portType": "bool"
+      },
+      {
+        "modelName": "patch_input_port_model",
+        "identifier": "patch_input_port_model:7584-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "forwardingPatch": "port_forwarding_patch_model:7586-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "portName": "Input",
+        "portTag": "9388668441494541193",
+        "portType": "bool"
+      },
+      {
+        "modelName": "patch_output_port_model",
+        "identifier": "patch_output_port_model:16156-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "forwardingPatch": "port_forwarding_patch_model:16158-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "portDescription": "This is coori",
+        "portName": "X",
+        "portTag": "4236886918388364967",
+        "portType": "float"
+      },
+      {
+        "modelName": "patch_output_port_model",
+        "identifier": "patch_output_port_model:16160-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "forwardingPatch": "port_forwarding_patch_model:16162-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "portDescription": "Y co ordinate of the co oridinate",
+        "portName": "Y",
+        "portTag": "12603497832490935308",
+        "portType": "float"
+      },
+      {
+        "modelName": "patch_output_port_model",
+        "identifier": "patch_output_port_model:16172-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "forwardingPatch": "port_forwarding_patch_model:16174-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "portName": "X ",
+        "portTag": "11048690733703820605",
+        "portType": "float"
+      },
+      {
+        "modelName": "patch_output_port_model",
+        "identifier": "patch_output_port_model:16176-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "forwardingPatch": "port_forwarding_patch_model:16178-2a856254-2ca7-4efd-934e-4886fd46490c",
+        "portDescription": "Y co ordinate of the collider",
+        "portName": "Y ",
+        "portTag": "6539609609197038993",
+        "portType": "float"
+      }
+    ]
+  },
+  "children": [
+    {
+      "modelName": "fonts",
+      "identifier": "fonts:6-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "children": [
+        {
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Bold",
+          "identifier": "local_font_model:4945-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "assetLocator": "4946-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bold",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "textures",
+      "identifier": "textures:10-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "children": [
+        {
+          "modelName": "texture",
+          "name": "mario bg",
+          "identifier": "texture:751-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "assetDataHash": "f4cc3cfc24a25dd519d3a5ec910c2068",
+          "assetLocator": "textures/mario bg.jpg",
+          "exportConfigurations": [
+            "textureExportConfig:2355-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+            "textureExportConfig:2507-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+            "textureExportConfig:2661-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+          ],
+          "fileLocator": {
+            "path": "textures/mario bg.texture"
+          },
+          "height": 768,
+          "isExternalAsset": true,
+          "width": 1024,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "f4cc3cfc24a25dd519d3a5ec910c2068",
+              "colorCount": 6419,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "jpeg",
+              "entropyOfDistribution": 2.5482546598868434,
+              "pixelsHigh": 768,
+              "pixelsWide": 1024
+            }
+          ]
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "AniPlayer",
+          "identifier": "sequenceTexture:1637-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "frameRate": 5,
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:4002-56cbd819-607b-4c78-aa96-56338c61bf0d"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "mario [1-2]",
+          "identifier": "textureGroup:1773-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:1767-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+            "texture:1771-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+          ],
+          "children": [
+            {
+              "modelName": "texture",
+              "name": "mario lost",
+              "identifier": "texture:1767-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "assetDataHash": "c2e23ea40d16c8e6245cd1408953b2f2",
+              "assetLocator": "textures/mario lost.png",
+              "exportConfigurations": [
+                "textureExportConfig:1911-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:2055-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:2203-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+              ],
+              "fileLocator": {
+                "path": "textures/mario lost.texture"
+              },
+              "height": 1024,
+              "isExternalAsset": true,
+              "width": 724,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "c2e23ea40d16c8e6245cd1408953b2f2",
+                  "colorCount": 1215,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.7845412068630027,
+                  "pixelsHigh": 1024,
+                  "pixelsWide": 724
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "mario png",
+              "identifier": "texture:1771-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "assetDataHash": "fb6a799367634bf3f217b03ca35a0f5c",
+              "assetLocator": "textures/mario png.png",
+              "exportConfigurations": [
+                "textureExportConfig:1913-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:2057-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:2205-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+              ],
+              "fileLocator": {
+                "path": "textures/mario png.texture"
+              },
+              "height": 1024,
+              "isExternalAsset": true,
+              "width": 1024,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "fb6a799367634bf3f217b03ca35a0f5c",
+                  "colorCount": 396,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 2.3924458347188877,
+                  "pixelsHigh": 1024,
+                  "pixelsWide": 1024
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "ani_collider",
+          "identifier": "sequenceTexture:3141-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "frameRate": 0,
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:4556-56cbd819-607b-4c78-aa96-56338c61bf0d"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "[1-3]",
+          "identifier": "textureGroup:3663-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:3657-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+            "texture:3653-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+            "texture:3661-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+          ],
+          "children": [
+            {
+              "modelName": "texture",
+              "name": "Super-Mario-Bros-PNG-Transparent-HD-Photo(1)",
+              "identifier": "texture:3657-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "assetDataHash": "94763363ff25ed413f9752d11474b76e",
+              "assetLocator": "textures/Super-Mario-Bros-PNG-Transparent-HD-Photo(1).png",
+              "exportConfigurations": [
+                "textureExportConfig:5535-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:5733-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:5937-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+              ],
+              "fileLocator": {
+                "path": "textures/Super-Mario-Bros-PNG-Transparent-HD-Photo(1).texture"
+              },
+              "height": 1024,
+              "isExternalAsset": true,
+              "width": 802,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "94763363ff25ed413f9752d11474b76e",
+                  "colorCount": 542,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 4.665542471555573,
+                  "pixelsHigh": 1024,
+                  "pixelsWide": 802
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "mushy(2)",
+              "identifier": "texture:3653-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "assetDataHash": "7bf171a5e60a9fbbcdc9dfcd34144667",
+              "assetLocator": "textures/mushy(2).png",
+              "exportConfigurations": [
+                "textureExportConfig:5533-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:5731-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:5935-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+              ],
+              "fileLocator": {
+                "path": "textures/mushy(2).texture"
+              },
+              "height": 180,
+              "isExternalAsset": true,
+              "width": 202,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "7bf171a5e60a9fbbcdc9dfcd34144667",
+                  "colorCount": 4497,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 5.8981428242806935,
+                  "pixelsHigh": 180,
+                  "pixelsWide": 202
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "turtle obstacle(1)",
+              "identifier": "texture:3661-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "assetDataHash": "764092124f0b11e83fa99be7b1843a00",
+              "assetLocator": "textures/turtle obstacle(1).png",
+              "exportConfigurations": [
+                "textureExportConfig:5537-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:5735-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                "textureExportConfig:5939-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+              ],
+              "fileLocator": {
+                "path": "textures/turtle obstacle(1).texture"
+              },
+              "height": 1024,
+              "isExternalAsset": true,
+              "width": 896,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "764092124f0b11e83fa99be7b1843a00",
+                  "colorCount": 3234,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 2.434953916845409,
+                  "pixelsHigh": 1024,
+                  "pixelsWide": 896
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "Untitled-[1-3]",
+          "identifier": "textureGroup:1059-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:1049-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+            "texture:1053-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+            "texture:1057-bc04e65c-95bc-4c48-a0f1-cea4f107a33c"
+          ],
+          "children": [
+            {
+              "modelName": "texture",
+              "name": "Untitled-1",
+              "identifier": "texture:1049-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+              "assetDataHash": "9ac072e1c170825521c1e5aa97fe0bed",
+              "assetLocator": "textures/Untitled-1.png",
+              "exportConfigurations": [
+                "textureExportConfig:1501-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+                "textureExportConfig:1731-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+                "textureExportConfig:1967-bc04e65c-95bc-4c48-a0f1-cea4f107a33c"
+              ],
+              "fileLocator": {
+                "path": "textures/Untitled-1.texture"
+              },
+              "height": 576,
+              "isExternalAsset": true,
+              "width": 1024,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "9ac072e1c170825521c1e5aa97fe0bed",
+                  "colorCount": 615,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 0.08290494157114398,
+                  "pixelsHigh": 576,
+                  "pixelsWide": 1024
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "Untitled-2",
+              "identifier": "texture:1053-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+              "assetDataHash": "eeafc024371e9f85f2c2dae7ee5eb599",
+              "assetLocator": "textures/Untitled-2.png",
+              "exportConfigurations": [
+                "textureExportConfig:1503-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+                "textureExportConfig:1733-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+                "textureExportConfig:1969-bc04e65c-95bc-4c48-a0f1-cea4f107a33c"
+              ],
+              "fileLocator": {
+                "path": "textures/Untitled-2.texture"
+              },
+              "height": 576,
+              "isExternalAsset": true,
+              "width": 1024,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "eeafc024371e9f85f2c2dae7ee5eb599",
+                  "colorCount": 536,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 0.07346338354328938,
+                  "pixelsHigh": 576,
+                  "pixelsWide": 1024
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "Untitled-3",
+              "identifier": "texture:1057-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+              "assetDataHash": "e3da7dbf872f41b5c0c3715b20c633f9",
+              "assetLocator": "textures/Untitled-3.png",
+              "exportConfigurations": [
+                "textureExportConfig:1505-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+                "textureExportConfig:1735-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+                "textureExportConfig:1971-bc04e65c-95bc-4c48-a0f1-cea4f107a33c"
+              ],
+              "fileLocator": {
+                "path": "textures/Untitled-3.texture"
+              },
+              "height": 576,
+              "isExternalAsset": true,
+              "width": 1024,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "e3da7dbf872f41b5c0c3715b20c633f9",
+                  "colorCount": 1764,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 0.0922053191881349,
+                  "pixelsHigh": 576,
+                  "pixelsWide": 1024
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "texture",
+          "name": "mario bg0",
+          "identifier": "texture:953-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "assetDataHash": "13b795c6788feaa5b815aa2d692d2179",
+          "assetLocator": "textures/mario bg.png",
+          "fileLocator": {
+            "path": "textures/mario bg0.texture"
+          },
+          "height": 768,
+          "isExternalAsset": true,
+          "width": 1024,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "13b795c6788feaa5b815aa2d692d2179",
+              "colorCount": 5817,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 2.6821763775623753,
+              "pixelsHigh": 768,
+              "pixelsWide": 1024
+            }
+          ]
+        },
+        {
+          "modelName": "texture",
+          "name": "background",
+          "identifier": "texture:1856-56cbd819-607b-4c78-aa96-56338c61bf0d",
+          "assetDataHash": "3b9d6af68a4fdc3399916037366c08d1",
+          "assetLocator": "textures/background.jpg",
+          "fileLocator": {
+            "path": "textures/background.texture"
+          },
+          "height": 511,
+          "isExternalAsset": true,
+          "width": 1024,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "3b9d6af68a4fdc3399916037366c08d1",
+              "colorCount": 84908,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "jpeg",
+              "entropyOfDistribution": 12.500279076003384,
+              "pixelsHigh": 511,
+              "pixelsWide": 1024
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "raidboss0002_[1-3]",
+          "identifier": "textureGroup:2382-56cbd819-607b-4c78-aa96-56338c61bf0d",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:2372-56cbd819-607b-4c78-aa96-56338c61bf0d",
+            "texture:2376-56cbd819-607b-4c78-aa96-56338c61bf0d",
+            "texture:2380-56cbd819-607b-4c78-aa96-56338c61bf0d"
+          ],
+          "children": [
+            {
+              "modelName": "texture",
+              "name": "raidboss0002_3_boss_groggy_06",
+              "identifier": "texture:2372-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "57776f0d810eb7663bc3447c22e7204c",
+              "assetLocator": "textures/raidboss0002_3_boss_groggy_06.png",
+              "fileLocator": {
+                "path": "textures/raidboss0002_3_boss_groggy_06.texture"
+              },
+              "height": 400,
+              "isExternalAsset": true,
+              "width": 528,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "57776f0d810eb7663bc3447c22e7204c",
+                  "colorCount": 249,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.5996988369108944,
+                  "pixelsHigh": 400,
+                  "pixelsWide": 528
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "raidboss0002_4_boss_idle_05",
+              "identifier": "texture:2376-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "ccc9b9985e555efe58f606bcb6c35f43",
+              "assetLocator": "textures/raidboss0002_4_boss_idle_05.png",
+              "fileLocator": {
+                "path": "textures/raidboss0002_4_boss_idle_05.texture"
+              },
+              "height": 400,
+              "isExternalAsset": true,
+              "width": 528,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "ccc9b9985e555efe58f606bcb6c35f43",
+                  "colorCount": 256,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.7802840977051666,
+                  "pixelsHigh": 400,
+                  "pixelsWide": 528
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "raidboss0002_boss_appear_15",
+              "identifier": "texture:2380-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "0449164e4d74ca1e1dd316634b680bac",
+              "assetLocator": "textures/raidboss0002_boss_appear_15.png",
+              "fileLocator": {
+                "path": "textures/raidboss0002_boss_appear_15.texture"
+              },
+              "height": 400,
+              "isExternalAsset": true,
+              "width": 528,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "0449164e4d74ca1e1dd316634b680bac",
+                  "colorCount": 205,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.8063373001348437,
+                  "pixelsHigh": 400,
+                  "pixelsWide": 528
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "[1-3]",
+          "identifier": "textureGroup:4002-56cbd819-607b-4c78-aa96-56338c61bf0d",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:3992-56cbd819-607b-4c78-aa96-56338c61bf0d",
+            "texture:3996-56cbd819-607b-4c78-aa96-56338c61bf0d",
+            "texture:4000-56cbd819-607b-4c78-aa96-56338c61bf0d"
+          ],
+          "children": [
+            {
+              "modelName": "texture",
+              "name": "collider1(1)",
+              "identifier": "texture:3992-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "917e5eaad2e0ebf9fa818e41df345485",
+              "assetLocator": "textures/collider1(1).png",
+              "fileLocator": {
+                "path": "textures/collider1(1).texture"
+              },
+              "height": 120,
+              "isExternalAsset": true,
+              "width": 120,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "917e5eaad2e0ebf9fa818e41df345485",
+                  "colorCount": 129,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.062309247634161,
+                  "pixelsHigh": 120,
+                  "pixelsWide": 120
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "pet0185_0013(1)",
+              "identifier": "texture:3996-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "ed1b674d06d5e2a68447a70463e555d5",
+              "assetLocator": "textures/pet0185_0013(1).png",
+              "fileLocator": {
+                "path": "textures/pet0185_0013(1).texture"
+              },
+              "height": 120,
+              "isExternalAsset": true,
+              "width": 120,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "ed1b674d06d5e2a68447a70463e555d5",
+                  "colorCount": 131,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.020577403269057,
+                  "pixelsHigh": 120,
+                  "pixelsWide": 120
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "pet0185_0014(1)",
+              "identifier": "texture:4000-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "0ff33367d15165f3937eec6e52e2d05f",
+              "assetLocator": "textures/pet0185_0014(1).png",
+              "fileLocator": {
+                "path": "textures/pet0185_0014(1).texture"
+              },
+              "height": 120,
+              "isExternalAsset": true,
+              "width": 120,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "0ff33367d15165f3937eec6e52e2d05f",
+                  "colorCount": 130,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.140420128388549,
+                  "pixelsHigh": 120,
+                  "pixelsWide": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "[1-3]",
+          "identifier": "textureGroup:4556-56cbd819-607b-4c78-aa96-56338c61bf0d",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:4546-56cbd819-607b-4c78-aa96-56338c61bf0d",
+            "texture:4550-56cbd819-607b-4c78-aa96-56338c61bf0d",
+            "texture:4554-56cbd819-607b-4c78-aa96-56338c61bf0d"
+          ],
+          "children": [
+            {
+              "modelName": "texture",
+              "name": "collider3",
+              "identifier": "texture:4546-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "87565c88196fd5d06156c9a1b162e481",
+              "assetLocator": "textures/collider3.png",
+              "fileLocator": {
+                "path": "textures/collider3.texture"
+              },
+              "height": 146,
+              "isExternalAsset": true,
+              "width": 192,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "87565c88196fd5d06156c9a1b162e481",
+                  "colorCount": 253,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.88942536744914,
+                  "pixelsHigh": 146,
+                  "pixelsWide": 192
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "jelly_raidSkill_alchemistjelly3_01",
+              "identifier": "texture:4550-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "db4bc7352466098dc83344c78b2f9729",
+              "assetLocator": "textures/jelly_raidSkill_alchemistjelly3_01.png",
+              "fileLocator": {
+                "path": "textures/jelly_raidSkill_alchemistjelly3_01.texture"
+              },
+              "height": 180,
+              "isExternalAsset": true,
+              "width": 180,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "db4bc7352466098dc83344c78b2f9729",
+                  "colorCount": 147,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 4.773104520591767,
+                  "pixelsHigh": 180,
+                  "pixelsWide": 180
+                }
+              ]
+            },
+            {
+              "modelName": "texture",
+              "name": "jelly_raidSkill_vampirejelly_01",
+              "identifier": "texture:4554-56cbd819-607b-4c78-aa96-56338c61bf0d",
+              "assetDataHash": "3961c0c3862aedaae862e8588699a34a",
+              "assetLocator": "textures/jelly_raidSkill_vampirejelly_01.png",
+              "fileLocator": {
+                "path": "textures/jelly_raidSkill_vampirejelly_01.texture"
+              },
+              "height": 114,
+              "isExternalAsset": true,
+              "width": 120,
+              "children": [
+                {
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "assetDataHash": "3961c0c3862aedaae862e8588699a34a",
+                  "colorCount": 67,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 4.094134258568703,
+                  "pixelsHigh": 114,
+                  "pixelsWide": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:12-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "children": [
+        {
+          "modelName": "defaultMaterial",
+          "name": "Mat_Background",
+          "identifier": "defaultMaterial:637-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "diffuseTextureName": "texture:1856-56cbd819-607b-4c78-aa96-56338c61bf0d",
+          "fileLocator": {
+            "path": "materials/Mat_Background.material"
+          },
+          "isDiffuseTextureIdentifierEnabled": true
+        },
+        {
+          "modelName": "defaultMaterial",
+          "name": "Mat_Player",
+          "identifier": "defaultMaterial:1511-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "diffuseTextureName": "sequenceTexture:1637-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "fileLocator": {
+            "path": "materials/Mat_Player-2.material"
+          },
+          "isDiffuseTextureIdentifierEnabled": true
+        },
+        {
+          "modelName": "defaultMaterial",
+          "name": "mat_collider",
+          "identifier": "defaultMaterial:2981-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "diffuseTextureName": "sequenceTexture:3141-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "fileLocator": {
+            "path": "materials/mat_collider-2.material"
+          },
+          "isDiffuseTextureIdentifierEnabled": true
+        },
+        {
+          "modelName": "defaultMaterial",
+          "name": "mat_GameOver",
+          "identifier": "defaultMaterial:5345-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "diffuseTextureName": "texture:953-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "fileLocator": {
+            "path": "materials/mat_GameOver.material"
+          },
+          "isDiffuseTextureIdentifierEnabled": true
+        },
+        {
+          "modelName": "defaultMaterial",
+          "name": "bluebg",
+          "identifier": "defaultMaterial:2171-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+          "diffuseFactor": "0xff00335f",
+          "fileLocator": {
+            "path": "materials/bluebg.material"
+          },
+          "lightingEnabled": true
+        }
+      ]
+    },
+    {
+      "modelName": "scene",
+      "identifier": "scene:18-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "fileLocator": {
+        "path": "blinking_race.scene"
+      },
+      "children": [
+        {
+          "modelName": "device",
+          "name": "Device",
+          "identifier": "device:74-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "layerIdentifier": "layer0",
+          "children": [
+            {
+              "modelName": "camera",
+              "name": "Camera",
+              "identifier": "camera:76-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "layerIdentifier": "layer0",
+              "children": [
+                {
+                  "modelName": "focalDistance",
+                  "name": "Focal Distance",
+                  "identifier": "focalDistance:78-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                  "layerIdentifier": "layer0",
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": -0.5361266732215881
+                  },
+                  "children": [
+                    {
+                      "modelName": "ambient_light_source_model",
+                      "name": "ambientLight0",
+                      "identifier": "ambient_light_source_model:84-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                      "layerIdentifier": "layer0"
+                    },
+                    {
+                      "modelName": "directional_light_source_model",
+                      "name": "directionalLight0",
+                      "identifier": "directional_light_source_model:86-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                      "intensity": 0.800000011920929,
+                      "layerIdentifier": "layer0",
+                      "transform": {
+                        "rx": -0.7853981633974483,
+                        "ry": 0.08726646259971647,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0.03,
+                        "y": 0.25,
+                        "z": 0.3
+                      }
+                    },
+                    {
+                      "modelName": "facetracker",
+                      "name": "faceTracker0",
+                      "identifier": "facetracker:301-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                      "layerIdentifier": "layer0",
+                      "children": [
+                        {
+                          "modelName": "composition_model",
+                          "name": "Background",
+                          "identifier": "composition_model:407-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                          "height": 844,
+                          "layerIdentifier": "layer0",
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390,
+                          "children": [
+                            {
+                              "modelName": "plane",
+                              "name": "Bg1",
+                              "identifier": "plane:521-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:637-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "transform": {
+                                "rx": 0,
+                                "ry": 7.275957959772868E-15,
+                                "rz": 0,
+                                "sx": 4000,
+                                "sy": 2900.00048828125,
+                                "sz": 4000,
+                                "x": -1.0678110122680664,
+                                "y": -279.60797119140625,
+                                "z": -3.63739013671875
+                              }
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "Bg3",
+                              "identifier": "plane:1359-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:637-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "transform": {
+                                "rx": 0,
+                                "ry": 2.9103831839091474E-14,
+                                "rz": 0,
+                                "sx": 4000,
+                                "sy": 2900.00048828125,
+                                "sz": 4000,
+                                "x": 390.306640625,
+                                "y": -279.6067199707031,
+                                "z": 0.0007300000288523734
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "composition_model",
+                          "name": "GameElement",
+                          "identifier": "composition_model:1377-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                          "height": 844,
+                          "layerIdentifier": "layer0",
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390,
+                          "children": [
+                            {
+                              "modelName": "plane",
+                              "name": "zz",
+                              "identifier": "plane:1381-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:1511-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "transform": {
+                                "rx": 0,
+                                "ry": 2.9103831839091474E-14,
+                                "rz": 0,
+                                "sx": 1000,
+                                "sy": 1000,
+                                "sz": 1000,
+                                "x": 276.420654296875,
+                                "y": -566.0607299804688,
+                                "z": 5.01556396484375
+                              }
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "Collider1",
+                              "identifier": "plane:2817-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:2981-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "transform": {
+                                "rx": 7.885108781710344E-22,
+                                "ry": 4.334883840773074E-10,
+                                "rz": 1.693314000301982E-12,
+                                "sx": 549.9999389648438,
+                                "sy": 549.9999389648438,
+                                "sz": 0.9999999403953552,
+                                "x": 226.1619415283203,
+                                "y": -370.786376953125,
+                                "z": 1.219599962234497
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "composition_model",
+                          "name": "Score",
+                          "identifier": "composition_model:4997-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+                          "height": 844,
+                          "layerIdentifier": "layer0",
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390,
+                          "children": [
+                            {
+                              "modelName": "2_d_text_model",
+                              "name": "Your_Score",
+                              "identifier": "2_d_text_model:4943-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "color": "0xff1d6cff",
+                              "fontIdentifier": "local_font_model:4945-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "layerIdentifier": "layer0",
+                              "pinnedLeft": true,
+                              "pinnedTop": true,
+                              "text": "YOUR SCORE",
+                              "usesFlexibleWidth": true,
+                              "width": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 20
+                                },
+                                "value": 100
+                              }
+                            },
+                            {
+                              "modelName": "2_d_text_model",
+                              "name": "Score_Text",
+                              "identifier": "2_d_text_model:5135-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "color": "0xff1d6cff",
+                              "fontIdentifier": "local_font_model:4945-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+                              "height": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 173
+                              },
+                              "layerIdentifier": "layer0",
+                              "pinnedLeft": true,
+                              "pinnedTop": true,
+                              "text": "0\n",
+                              "transform": {
+                                "rx": 0,
+                                "ry": 2.842170943040401E-14,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0.00006103515625
+                              },
+                              "usesFlexibleWidth": true,
+                              "width": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 20
+                                },
+                                "value": 100
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "audiosource",
+                      "name": "bgm",
+                      "identifier": "audiosource:75460-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "backedByPlaybackController": true,
+                      "layerIdentifier": "layer0",
+                      "playbackControllerIdentifier": "playback_controller_model:73538-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "sound": "sound:72102-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "type": "playback_controller",
+                      "volume": 0.12727272727272626,
+                      "children": [
+                        {
+                          "modelName": "audioTransforms",
+                          "identifier": "audioTransforms:75462-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4"
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "audiosource",
+                      "name": "gameover",
+                      "identifier": "audiosource:76432-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "backedByPlaybackController": true,
+                      "layerIdentifier": "layer0",
+                      "playbackControllerIdentifier": "playback_controller_model:72580-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "sound": "sound:72100-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "type": "playback_controller",
+                      "volume": 0.3181818181818172,
+                      "children": [
+                        {
+                          "modelName": "audioTransforms",
+                          "identifier": "audioTransforms:76434-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4"
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "audiosource",
+                      "name": "jump",
+                      "identifier": "audiosource:76928-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "backedByPlaybackController": true,
+                      "layerIdentifier": "layer0",
+                      "playbackControllerIdentifier": "playback_controller_model:73058-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "sound": "sound:72104-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+                      "type": "playback_controller",
+                      "volume": 0.2909090909090899,
+                      "children": [
+                        {
+                          "modelName": "audioTransforms",
+                          "identifier": "audioTransforms:76930-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "microphone_model",
+              "name": "Microphone",
+              "identifier": "microphone_model:80-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "layerIdentifier": "layer0"
+            }
+          ]
+        },
+        {
+          "modelName": "composition_model",
+          "name": "GameOver",
+          "identifier": "composition_model:5149-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "height": 844,
+          "layerIdentifier": "layer0",
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 0.0005924170836806297,
+            "sy": 0.0005924170836806297,
+            "sz": 0.0005924170836806297,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "width": 390,
+          "children": [
+            {
+              "modelName": "plane",
+              "name": "plane0",
+              "identifier": "plane:2419-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+              "layerIdentifier": "layer0",
+              "materialIdentifier": "defaultMaterial:2171-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 4025.300048828125,
+                "sy": 8880.490234375,
+                "sz": 0.9900000095367432,
+                "x": 0,
+                "y": -0.0001220703125,
+                "z": 0
+              }
+            },
+            {
+              "modelName": "2_d_text_model",
+              "name": "restart",
+              "identifier": "2_d_text_model:1923-6f30b97f-1d7b-4efa-acf6-f5284fcb0291",
+              "color": "0xffdbb94f",
+              "fontIdentifier": "local_font_model:4945-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "layerIdentifier": "layer0",
+              "pinnedLeft": true,
+              "pinnedLeftValue": {
+                "unit": {
+                  "multiplier": 1,
+                  "unitBase": 10
+                },
+                "value": 68
+              },
+              "pinnedTop": true,
+              "text": "Tap to restart",
+              "transform": {
+                "rx": 0,
+                "ry": 2.842170943040401E-14,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 68,
+                "y": 0,
+                "z": 0.00006103515625
+              },
+              "usesFlexibleWidth": true,
+              "width": {
+                "unit": {
+                  "multiplier": 1,
+                  "unitBase": 20
+                },
+                "value": 67.69231
+              }
+            },
+            {
+              "modelName": "plane",
+              "name": "GameOverScreen",
+              "identifier": "plane:5153-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "layerIdentifier": "layer0",
+              "materialIdentifier": "defaultMaterial:5345-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+              "transform": {
+                "rx": 0,
+                "ry": 2.928931172574943E-14,
+                "rz": 0,
+                "sx": 3974.6689453125,
+                "sy": 2882.883056640625,
+                "sz": 7775.69091796875,
+                "x": -4.677097797393799,
+                "y": -273.7846374511719,
+                "z": 7.9337158203125
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "layers",
+      "identifier": "layers:20-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "children": [
+        {
+          "modelName": "layer",
+          "name": "layer0",
+          "identifier": "layer:82-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "color": "0xff8c72ca"
+        }
+      ]
+    },
+    {
+      "modelName": "scripts_model",
+      "identifier": "scripts_model:36-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "children": [
+        {
+          "modelName": "script_bridging_variables_model",
+          "identifier": "script_bridging_variables_model:38-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+        }
+      ]
+    },
+    {
+      "modelName": "bundled_packages_model",
+      "identifier": "bundled_packages_model:44-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+    },
+    {
+      "modelName": "exportConfig",
+      "identifier": "exportConfig:48-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1911-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1913-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2055-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2057-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2203-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2205-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2355-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2507-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2661-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5533-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5535-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5537-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5731-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5733-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5735-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5935-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5937-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5939-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1501-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1503-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1505-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1731-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1733-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1735-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1967-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1969-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1971-bc04e65c-95bc-4c48-a0f1-cea4f107a33c",
+          "method": "fastest"
+        }
+      ]
+    },
+    {
+      "modelName": "manifest",
+      "identifier": "manifest:50-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "additionalEnabledChanges": null,
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 101,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextTranslation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": true,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectPbrClearcoatMaterialExtension": false,
+      "effectPbrIorMaterialExtension": false,
+      "effectPbrSheenMaterialExtension": false,
+      "effectPbrSpecularMaterialExtension": false,
+      "effectPbrTransmissionMaterialExtension": false,
+      "effectRecordingFromMic": false,
+      "effectUses3DModelAssets": false,
+      "effectUses4KTextures": false,
+      "effectUsesAheadOfTimeShaders": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAppLauncher": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": true,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentAdjacency": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSharableConfig": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": true,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": false,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": true,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicCapabilities": false,
+      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicScriptProperties": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": true,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": true,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesI18n": false,
+      "effectUsesIdTracker": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": false,
+      "effectUsesInstruction": true,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLayers": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMicrophoneV2": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlEditableTextExitCB": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": false,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": false,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPermissions": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneNormal": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesQPL": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpaceSetup": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": true,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": false,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": false,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "181.0",
+      "externalTexturesWhitelistedDomains": null,
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 13,
+      "facewaveMinVersion": 1,
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": null,
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "manuallyEnabledItemsIds": [
+        "effectUsesDeviceMotion"
+      ],
+      "maxParticipantsCount": 0,
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "optionalCapabilityItemIds": [],
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 2,
+      "touchGesturesSupportsLongPress": false,
+      "touchGesturesSupportsPan": false,
+      "touchGesturesSupportsPinch": false,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": false,
+      "touchGesturesSupportsTap": true,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "modelName": "target",
+      "identifier": "target:60-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "targetPlatforms": []
+    },
+    {
+      "modelName": "scripting_config_model",
+      "identifier": "scripting_config_model:68-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3",
+      "forceStrictModeCompilation": true
+    },
+    {
+      "modelName": "graphicsConfig",
+      "identifier": "graphicsConfig:88-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+    },
+    {
+      "modelName": "videos_model",
+      "identifier": "videos_model:185-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+    },
+    {
+      "modelName": "input_mappings_model",
+      "identifier": "input_mappings_model:189-df4a9ff1-7dd9-4283-bee2-ae66a4671ba3"
+    },
+    {
+      "modelName": "playback_controllers_model",
+      "identifier": "playback_controllers_model:64379-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+      "children": [
+        {
+          "modelName": "playback_controller_model",
+          "name": "Gameovercontroller",
+          "identifier": "playback_controller_model:72580-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "fileLocator": {
+            "path": "audios/Gameovercontroller.audioctrl"
+          },
+          "soundIdentifier": "sound:72100-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4"
+        },
+        {
+          "modelName": "playback_controller_model",
+          "name": "jumpaudiocontroller",
+          "identifier": "playback_controller_model:73058-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "fileLocator": {
+            "path": "audios/jumpaudiocontroller.audioctrl"
+          },
+          "soundIdentifier": "sound:72104-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4"
+        },
+        {
+          "modelName": "playback_controller_model",
+          "name": "bgmAudiocontroller",
+          "identifier": "playback_controller_model:73538-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "fileLocator": {
+            "path": "audios/bgmAudiocontroller.audioctrl"
+          },
+          "soundIdentifier": "sound:72102-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4"
+        }
+      ]
+    },
+    {
+      "modelName": "sounds",
+      "identifier": "sounds:64385-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+      "children": [
+        {
+          "modelName": "sound",
+          "name": "gameover.m4a",
+          "identifier": "sound:72100-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "assetDataHash": "3c44462869eb238aae7c3b52ac7c1b82",
+          "assetLocator": "sounds/gameover.m4a",
+          "duration": 3032,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "bgm.m4a",
+          "identifier": "sound:72102-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "assetDataHash": "5ea82883c255d05bf660427bcf95699c",
+          "assetLocator": "sounds/bgm.m4a",
+          "duration": 82287,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "jump.m4a",
+          "identifier": "sound:72104-f41e2c0d-f006-4e82-8b4b-b003d7e63ce4",
+          "assetDataHash": "2f4d5e588ac9b5cb4cfe9d39c656edf5",
+          "assetLocator": "sounds/jump.m4a",
+          "isExternalAsset": true
+        }
+      ]
+    }
+  ]
+}

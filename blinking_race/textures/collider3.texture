@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "collider3",
+  "identifier": "texture:4546-56cbd819-607b-4c78-aa96-56338c61bf0d",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "87565c88196fd5d06156c9a1b162e481",
+  "assetLocator": "textures/collider3.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 146,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 192,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "87565c88196fd5d06156c9a1b162e481",
+      "colorCount": 253,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.88942536744914,
+      "pixelsHigh": 146,
+      "pixelsWide": 192
+    }
+  ]
+}
